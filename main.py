@@ -15,7 +15,7 @@ questions = [
     },
     {
         "question": "What does OOP mean?",
-        "options": ["A. Original Objectified Python", "B. Object Orginated Programs", "C. Object Oriented Programming", "D. Orange Orangatang Pie"],
+        "options": ["A. Original Objectified Python", "B. Object Orginated Programs", "C. Object-oriented programming", "D. Orange Orangatang Pie"],
         "answer": "C"
     },
     {
