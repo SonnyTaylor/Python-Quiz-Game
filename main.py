@@ -25,7 +25,7 @@ questions = [
     },
     {
         "question": "Who created python?",
-        "options": ["A. Guido van Rossum", "B. Linus Torvals", "C. Terry A. Davis", "D. Tim Berners-Lee"],
+        "options": ["A. Guido van Rossum", "B. Linus Torvalds", "C. Terry A. Davis", "D. Tim Berners-Lee"],
         "answer": "A" 
     },
     {
