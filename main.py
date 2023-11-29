@@ -15,19 +15,19 @@ questions = [
     },
     {
         "question": "What does OOP mean?",
-        "options": ["A. Original Objectified Python", "B. Object Orginated Programs", "C. Object Orginated Programming", "D. Orange Orangatang Pie"],
+        "options": ["A. Original Objectified Python", "B. Object Orginated Programs", "C. Object Oriented Programming", "D. Orange Orangatang Pie"],
         "answer": "C"
-    }
+    },
     {
         "question": "What is the correct symbol for adding a comment in python?",
         "options": ["A. //", "B. #", "C. <!-- -->", "D.  /* */"],
         "answer": "B"  
-    }
+    },
     {
         "question": "Who created python?",
         "options": ["A. Guido van Rossum", "B. Linus Torvals", "C. Terry A. Davis", "D. Tim Berners-Lee"],
         "answer": "A" 
-    }
+    },
     {
         "question": "In Python, which keyword is used to define a function?",
         "options": ["A. define", "B. func", "C. def", "D. function"],
@@ -51,12 +51,12 @@ def ask_question(question):
     Returns:
         user_answer: returns the users answer as a string
     """
-  print(question['question'])
-  for option in question['options']:
-    print(option)
+    print(question['question'])
+    for option in question['options']:
+        print(option)
 
-  user_answer = input("Enter your answer (A, B, C, D): ").upper() # ask the user a question and convert to uppercase to avoid errors
-  return user_answer == question['answer']
+    user_answer = input("Enter your answer (A, B, C, D): ").upper()# ask the user a question and convert to uppercase to avoid errors
+    return user_answer == question['answer']
 
 if __name__ == "__main__":
   score = 0 # set the score to 0 when starting
